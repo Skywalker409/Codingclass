@@ -9,9 +9,9 @@ private static int winnings;
 
 
 public static String spin() {
-	double rand1= Math.random()*9+1;
-	double rand2= Math.random()*9+1;
-	double rand3= Math.random()*9+1;
+	double rand1= Math.random()*10;
+	double rand2= Math.random()*10;
+	double rand3= Math.random()*10;
 	slot1 = (int) rand1;
 	slot2 = (int) rand2;
 	slot3 = (int) rand3;
